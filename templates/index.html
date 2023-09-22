@@ -1,0 +1,62 @@
+{% load static %}
+{% include "base.html" %}
+    <!-- Header -->
+    <header class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="title">
+                    <a href="/" target="_top">
+                        <img src="/static/images/tcb-logo.png" width="125" height="125" alt="" title="">
+                    </a>
+                    TCB Apps
+                </h1>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        
+
+    <hr class="hrtop" />
+    
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Welcome and TCB!</h2>
+                <p>
+                    Hi! I'm an <a class="ext" href="http://appinventor.mit.edu/" target="_blank">App Inventor</a> enthusiast.
+                    This page is dedicated to <a class="ext" href="http://appinventor.mit.edu/" target="_blank">
+                    <img src="/static/images/ailogo2.png" width="44" height="39" alt="App Inventor" title="App Inventor"> App Inventor</a>.
+                    <br><br>
+                    Here you can find tons of App Inventor
+                    <a class="btn btn-primary" href="./tutorials.php" target="_top">Tutorials</a>, and
+                    <a class="btn btn-primary" href="http://127.0.0.1:8000/extension/" target="_top">Extensions</a>
+                    as well as an extensive list of <a class="info" href="./links.php" target="_top">Links</a> to more tips and tricks around App Inventor.
+                    <br><br>
+                </p>
+                {% comment %} <p class="text-center">
+                    <img src="/static/logo.png" width="125" height="125" alt="" title="">
+                </p> {% endcomment %}
+            </div>
+            
+        </div>
+
+        <br><br>
+        {% comment %} <div class="row">
+            <div class="col-md-12">
+                <div class="panel callout radius">
+                    <img src="/static/Help.png" width="70" height="70" alt="" title="" style="float:left;padding-top:15px;padding-right:20px">
+                    <h4 style="color:black">
+                        For questions about <img src="/static/ai2logo.png" width="22" height="20" alt="" title=""> App Inventor,<br>please ask in the
+                        <b><a class="ext" href="https://community.appinventor.mit.edu/" target="_blank">App Inventor community</a></b>. Thank you.
+                    </h4>
+                </div>
+            </div>
+        </div> {% endcomment %}
+    </div>
+
+    <!-- Footer -->
+    {% include "footer.html" %} 
+   
+</body>
+</html>
