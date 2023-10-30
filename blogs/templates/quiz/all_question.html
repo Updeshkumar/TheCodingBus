@@ -1,0 +1,93 @@
+{% include 'base.html' %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Add Bootstrap CSS link here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    h2.card-title {
+        font-size: 1.3rem;
+    }
+
+    /* Style for the timer */
+    #quiz-timer {
+        color: red; /* Set the timer text color to red */
+        text-align: right; /* Align the timer to the right */
+    }
+    </style>
+</head>
+<body style="background-color: #f0f0f0;"> <!-- Change background color here -->
+    <div class="container mt-3">
+        <div class="d-flex justify-content-center">
+            <form method="post" action="{% url 'quiz:submit_quiz' %}">
+                {% csrf_token %}
+                <div id="quiz-timer"><h4>Time Left: <span id="timer-countdown">120</span> seconds</div></h4>
+
+                <h1>Question 1 of 10:</h1>
+                <h5>After successfully answering ten questions, you will be awarded a certificate.</h5>
+
+                {% for question in questions %}
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">{{ question.text }}</h2>
+                        {% for choice in question.choice_set.all %}
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question_{{ question.id }}" id="choice{{ choice.id }}" value="{{ choice.id }}">
+                            <label class="form-check-label" for="choice{{ choice.id }}">
+                                {{ choice.text }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery scripts here (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Set the duration of the timer to 2 minutes (120 seconds)
+        const timerDuration = 120 * 1000; // 120 seconds * 1000 milliseconds
+        
+        // Get the timer and countdown elements
+        const timerElement = document.getElementById("quiz-timer");
+        const countdownElement = document.getElementById("timer-countdown");
+        
+        // Function to update the timer countdown
+        function updateTimer(seconds) {
+            countdownElement.textContent = seconds;
+        }
+        
+        // Function to redirect to the result URL
+        function redirectToResult() {
+            // Replace 'result-url-here' with the actual URL to which you want to redirect
+            window.location.href = '{% url "quiz:calculate_score" %}';
+        }
+        
+        // Start the timer when the page loads
+        window.addEventListener("load", () => {
+            let remainingTime = timerDuration / 1000; // Convert to seconds
+            updateTimer(remainingTime);
+        
+            // Update the timer countdown every second
+            const countdownInterval = setInterval(() => {
+                remainingTime--;
+                updateTimer(remainingTime);
+        
+                if (remainingTime <= 0) {
+                    // Timer has expired, redirect to the result URL
+                    clearInterval(countdownInterval);
+                    redirectToResult();
+                }
+            }, 1000); // Update the countdown every second
+        });
+    </script>
+</body>
+</html>

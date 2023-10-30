@@ -1,0 +1,196 @@
+{% include 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>{{ bg_single.meta_title }}</title>
+        <meta name="keywords" lang="en" content="{{ bg_single.focus_keyword }}">
+        <meta name="description" lang="en" content="{{ bg_single.meta_description }}">
+        <!-- Add the Font Awesome CDN link in the head section -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+        <style>
+              .card.custom-card {
+                width: auto; /* Increase the width to make the cards larger */
+                margin: 15px;
+              }
+            img.img-fluid.rounded {
+                height: 400px;
+                width: full;
+            }
+            
+                
+            .my-container {
+                margin-top: 20px !important; /* Use !important to ensure it takes precedence */
+                padding: 20px; /* Adjust padding as needed */
+            }
+            
+            /* Add margin and padding to the form */
+            .my-form {
+                margin: 10px 0 !important; /* Use !important to ensure it takes precedence */
+                padding: 10px; /* Adjust padding as needed */
+            }
+            
+            /* Add margin and padding to the input group */
+            .input-group {
+                margin: 0 auto !important; /* Use !important to ensure it takes precedence */
+                max-width: 400px; /* Adjust the max-width as needed */
+            }
+            
+            /* Add padding to the input field and button */
+            .form-control,
+            .btn {
+                padding: 10px; /* Adjust padding as needed */
+            }
+            
+            .socialicon {
+                padding: 20px;
+            }
+            .row {
+                 max-width: 1100px;
+                 margin-left: auto;
+                margin-right: auto;
+            }  
+           
+        </style>
+    </head>
+    <body>
+        
+        <!-- Responsive navbar-->
+        <!-- Page content-->
+    
+        <div class="container mt-5">
+            
+            <div class="row">
+                
+                <div class="col-lg-8">
+                 
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            
+                            <!-- Post title-->
+                            <h3 class="fw-bolder mb-1">{{bg_single.title}}</h3>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">by The Coding Bus | {{bg_single.date}} |mit app inventor</div>
+                            
+                            <!-- Post categories-->
+                            {% comment %} <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a> {% endcomment %}
+                        </header>
+                        <!-- Preview image figure-->
+                        <!-- Facebook -->
+                        <div class="socialicon">
+                            <a href="https://www.facebook.com">
+                                <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>
+                            </a>
+                        
+                            <!-- Twitter -->
+                            <a href="https://www.twitter.com">
+                                <i class="fab fa-twitter fa-2x" style="color: #55acee;"></i>
+                            </a>
+                        
+                            <!-- Google -->
+                           
+                        
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com">
+                                <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>
+                            </a>
+                        
+                            <!-- Linkedin -->
+                            <a href="https://www.linkedin.com">
+                                <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i>
+                            </a>
+                        
+                           
+                            <!-- Youtube -->
+                            <a href="https://www.youtube.com">
+                                <i class="fab fa-youtube fa-2x" style="color: #ed302f;"></i>
+                            </a>
+                        
+                            <!-- Github -->
+                            <a href="https://www.github.com">
+                                <i class="fab fa-github fa-2x" style="color: #333333;"></i>
+                            </a>
+                    
+                            <!-- Whatsapp -->
+                            <a href="https://www.whatsapp.com">
+                                <i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i>
+                            </a>
+                        </div>
+                        <figure class="mb-4"><img class="img-fluid rounded" src="{{bg_single.image.url}}" alt="..." /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">{{bg_single.description}}</p>
+                            <p class="fs-5 mb-4">{{bg_single.Conclusion}}</p>
+                            
+                        </section>
+                    </article>
+                    
+                </div>
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+                    <!-- Search widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Search</div>
+                        <form method="get" action="{% url "blogs:search" %}">
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="query" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+                                <button type="submit" class="btn btn-primary" id="button-search" type="button">Go!</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                    <!-- Categories widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Categories</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="#!">Web Design</a></li>
+                                        <li><a href="#!">HTML</a></li>
+                                        <li><a href="#!">Freebies</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="#!">JavaScript</a></li>
+                                        <li><a href="#!">CSS</a></li>
+                                        <li><a href="#!">Tutorials</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Side widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Side Widget</div>
+                        <div class="card-body">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            {% for i in bg_all %}
+            <div class="card custom-card" style="width: 21rem;">
+              <img class="card-img-top" src="{{ i.image.url }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{i.title}}</h5>
+                <p class="card-text">{{i.description}}.</p>
+                <a href="{{ i.get_absolute_url }}" class="btn btn-primary">read more</a>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        <!-- Footer-->
+        
+        {% include 'footer.html' %}
+         {% include 'footerone.html' %}
+    </body>
+</html>

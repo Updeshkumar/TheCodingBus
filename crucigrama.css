@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+h2{text-align:center;font-size:16px;font-weight:bold;color:#FFF;margin-bottom: 5px;}
+#cw_board{margin:0 auto;border-spacing:0px;}
+#cw_board td{padding:0px;}
+
+#cw_grid{
+	border:1px solid #000;
+	background-color:#FFF;
+}
+
+#cw_grid table{border-spacing:0px;}
+#cw_grid table td{padding:0px;}
+#cw_grid div{
+	height: 26px;
+	width: 26px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 26px;
+	border: 1px solid #000;
+	font-size: 20px;
+	color: #039;
+}
+#cw_grid .black{background-color:#000;}
+
+#actions{text-align:center;}
+#actions input{
+	font-size: 18px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+#actions a{
+	font-size: 22px;
+	text-decoration: underline;
+	color: #FFF;
+	line-height: 48px;
+}
+#actions a:hover{
+	color: #0F0;
+}
+
+#definitions{
+	font-size: 16px;
+	padding: 5px;
+	color: #DDD;
+	line-height: 26px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#def, #cwMsg{
+	position: fixed;
+	width: 100%;
+	margin: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	top: 0px;
+	left: 0px;
+	background-color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	z-index: 2000;
+	border-top-width: 6px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	border-bottom-width: 6px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	color: #000;
+	-webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.85);
+	-moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.85);
+	box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.85);
+	display: none;
+}
+#def h3{
+	margin: 0;
+	margin-bottom: 5px;
+	text-decoration: underline;
+}
+#cwMsg{
+	padding-top: 25px;
+}
+
+#keyboard{
+	position: fixed;
+	height: 106px;
+	width: 100%;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	display: none;
+	z-index: 9999;
+}
+
+#keyboard button.key{
+	border: 1px solid #FFF;
+	color: #FFF;
+	font-size: 18px;
+	height: 31px;
+	width: 27px;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 2px;
+	text-align: center;
+	text-indent: -1px;
+}
+#keyboard button.key:hover{
+	background-color: #666;
+}
+#keyboard button.del{width:54px}
+
+@media screen and (min-width: 360px){
+	h2{font-size: 18px;}
+	#cw_grid div{
+	  height: 30px;
+	  width: 30px;
+	  font-size: 22px;
+	  line-height: 30px;
+	}
+	#def,#cwMsg{font-size:20px}
+	#definitions{font-size: 17px;}
+	#actions input{font-size: 20px;}
+	#actions a{font-size: 24px;}
+	#keyboard{height:118px;}
+	#keyboard button.key{
+	  font-size: 20px;
+	  height: 35px;
+	  width: 31px;
+	}
+	#keyboard button.del{width:62px}
+}
+
+@media screen and (min-width: 430px){
+	
+}
+
+@media screen and (min-width: 480px){
+	h2{font-size: 20px;}
+	#cw_grid div{
+	  height: 40px;
+	  width: 40px;
+	  font-size: 28px;
+	  line-height: 40px;
+	}
+	#def,#cwMsg{font-size:22px}
+	#definitions{font-size: 18px;}
+	#actions input{font-size: 22px;}
+	#actions a{font-size: 26px;}
+	#keyboard{height:155px;}
+	#keyboard button.key{
+	  font-size: 22px;
+	  height: 45px;
+	  width: 41px;
+	  margin: 3px;
+	}
+	#keyboard button.del{width:82px}
+}
+
+@media screen and (min-width: 600px){
+	h2{font-size: 22px;}
+	#cw_grid div{
+	  height: 45px;
+	  width: 45px;
+	  font-size: 30px;
+	  line-height: 45px;
+	}
+	#def,#cwMsg{font-size:24px}
+	#definitions{font-size: 20px;}
+	#actions input{font-size: 24px;}
+	#actions a{font-size: 28px;}
+	#keyboard{height:177px;}
+	#keyboard button.key{
+	  font-size: 26px;
+	  height: 50px;
+	  width: 50px;
+	  margin: 4px;
+	}
+	#keyboard button.del{width:90px}
+}
+
+@media screen and (min-width: 800px ){
+	#def,#cwMsg{font-size:26px}
+	#actions input{font-size: 26px;}
+	#actions a{font-size: 30px;}
+	#keyboard{height:189px;}
+	#keyboard button.key{
+	  font-size: 28px;
+	  height: 54px;
+	  width: 54px;
+	  margin: 4px;
+	}
+}
+
+@media screen and (max-width: 319px ){
+	h2{font-size: 12px;}
+	#cw_grid div{
+	  height: 24px;
+	  width: 24px;
+	  font-size: 20px;
+	  line-height: 24px;
+	}
+	#def,#cwMsg{font-size:14px}
+	#definitions{font-size: 14px;}
+	#actions input{font-size: 14px;}
+	#keyboard{height:86px;}
+	#keyboard button.key{
+	  font-size: 16px;
+	  height: 26px;
+	  width: 22px;
+	  margin: 1px;
+	}
+	#keyboard button.del{width:44px}
+}

@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style type='text/css'>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: table;
+            font-family: Georgia, serif;
+            font-size: 24px;
+            text-align: center;
+        }
+        .container {
+            border: 20px solid tan;
+            width: 750px;
+            height: 563px;
+            display: table-cell;
+            vertical-align: middle;
+            position: relative;
+            background: linear-gradient(to bottom, #ffffff, #fff8f1);
+        }
+        .logo {
+            color: tan;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .marquee {
+            color: tan;
+            font-size: 48px;
+            margin: 20px;
+        }
+        .assignment {
+            margin: 20px;
+        }
+        .person {
+            border-bottom: 2px solid black;
+            font-size: 32px;
+            font-style: italic;
+            margin: 20px auto;
+            width: 400px;
+        }
+        .reason {
+            margin: 20px;
+        }
+        .bus-text {
+            font-size: 48px;
+            color: #fa0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <img  img-align="center" height="100px" width="100px" src="http://thecodingbus.info/TheCodingBus/static/images/tcb-logo.png" alt="Logo" class="logo">
+        <div class="marquee">
+            C E R T I F I C AT E
+        </div>
+        <div class="assignment">
+            OF APRECIATION
+        </div>
+         <div class="assignment">
+            Present to
+        </div>
+        <div class="person">
+            <strong>{{ name }}</strong>
+        </div>
+        <div class="reason">
+           Congratulations on your remarkable achievement in our dynamic quiz
+competition! Your dedication to learning and your impressive
+knowledge have truly shone through in this challenging and everchanging quiz environment.
+
+        </div>
+        <div class="bus-text">
+            The Coding Bus
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+/* Basic CSS attribute*/
+.main_banner_1_img, .main_banner_2_img, .main_banner_3_img, .scheme_banner_kk_img, .scheme_banner_stovec_img,
+.scheme_banner_ff_english_img, .scheme_banner_ff_hindi_img, .scheme_banner_ff_hinglish_img, .scheme_banner_ff_kannad_img, .scheme_banner_alkem, .scheme_banner_jk, 
+.scheme_banner_tss, .scheme_banner_pnbh, .scheme_banner_wagh, .scheme_banner_jsw_udaan, .scheme_banner_jsw_udaan_renew, .scheme_banner_jsw_udaan_umeed, .scheme_banner_astral_foundation, 
+.scheme_banner_lti, .scheme_banner_pehel, .scheme_banner_bharati, .scheme_banner_vivo, .scheme_banner_nsdl, .scheme_banner_timken{
+	height: 300px !important;
+	width: 100%;
+}
+/* End Basic*/
+
+@media only screen and (max-device-width:600px) {
+	#main_banner_1, #main_banner_2, #main_banner_3, #scheme_banner_kk, #scheme_banner_stovec,#scheme_banner_ff_english,
+	#scheme_banner_ff_hindi, #scheme_banner_ff_hinglish, #scheme_banner_ff_kannad, #scheme_banner_alkem, #scheme_banner_jk, #scheme_banner_tss, #scheme_banner_pnbh, 
+#scheme_banner_wagh, #scheme_banner_jsw_udaan, #scheme_banner_jsw_udaan_renew, #scheme_banner_jsw_udaan_umeed, #scheme_banner_astral_foundation, #scheme_banner_lti, 
+#scheme_banner_pehel, #scheme_banner_bharati, #scheme_banner_vivo, #scheme_banner_nsdl, #scheme_banner_timken{
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (min-device-width :601px) and (max-device-width:767px) {
+	#main_banner_1, #main_banner_2, #main_banner_3, #scheme_banner_kk, #scheme_banner_stovec,
+#scheme_banner_ff_english, #scheme_banner_ff_hindi, #scheme_banner_ff_hinglish, #scheme_banner_ff_kannad, #scheme_banner_alkem, #scheme_banner_jk, #scheme_banner_tss, #scheme_banner_pnbh, 
+#scheme_banner_wagh, #scheme_banner_jsw_udaan, #scheme_banner_jsw_udaan_renew, #scheme_banner_jsw_udaan_umeed, #scheme_banner_astral_foundation, #scheme_banner_lti, 
+#scheme_banner_pehel, #scheme_banner_bharati, #scheme_banner_vivo, #scheme_banner_nsdl, #scheme_banner_timken{
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (min-device-width :768px) and (max-device-width:992px) {
+	#main_banner_1, #main_banner_2, #main_banner_3, #scheme_banner_kk, #scheme_banner_stovec,
+#scheme_banner_ff_english, #scheme_banner_ff_hindi, #scheme_banner_ff_hinglish, #scheme_banner_ff_kannad, #scheme_banner_alkem, #scheme_banner_jk, #scheme_banner_tss, #scheme_banner_pnbh, 
+#scheme_banner_wagh, #scheme_banner_jsw_udaan, #scheme_banner_jsw_udaan_renew, #scheme_banner_jsw_udaan_umeed, #scheme_banner_astral_foundation, #scheme_banner_lti, 
+#scheme_banner_pehel, #scheme_banner_bharati, #scheme_banner_vivo, #scheme_banner_nsdl, #scheme_banner_timken{
+		margin-top: 100px;
+	}
+}
+
+@media only screen and (min-device-width :993px) and (max-device-width:1200px) {
+	#main_banner_1, #main_banner_2, #main_banner_3, #scheme_banner_kk, #scheme_banner_stovec,
+#scheme_banner_ff_english, #scheme_banner_ff_hindi, #scheme_banner_ff_hinglish, #scheme_banner_ff_kannad, #scheme_banner_alkem, #scheme_banner_jk, #scheme_banner_tss, #scheme_banner_pnbh, 
+#scheme_banner_wagh, #scheme_banner_jsw_udaan, #scheme_banner_jsw_udaan_renew, #scheme_banner_jsw_udaan_umeed, #scheme_banner_astral_foundation, #scheme_banner_lti, 
+#scheme_banner_pehel, #scheme_banner_bharati, #scheme_banner_vivo, #scheme_banner_nsdl, #scheme_banner_timken{
+		margin-top: 100px;
+	}
+}
+
+@media only screen and (min-device-width :1200px){
+	#main_banner_1, #main_banner_2, #main_banner_3, #scheme_banner_kk, #scheme_banner_stovec,
+#scheme_banner_ff_english, #scheme_banner_ff_hindi, #scheme_banner_ff_hinglish, #scheme_banner_ff_kannad, #scheme_banner_alkem, #scheme_banner_jk, #scheme_banner_tss, #scheme_banner_pnbh, 
+#scheme_banner_wagh, #scheme_banner_jsw_udaan, #scheme_banner_jsw_udaan_renew, #scheme_banner_jsw_udaan_umeed, #scheme_banner_astral_foundation, #scheme_banner_lti, 
+#scheme_banner_pehel, #scheme_banner_bharati, #scheme_banner_vivo, #scheme_banner_nsdl, #scheme_banner_timken{
+		margin-top: 100px;
+	}
+}

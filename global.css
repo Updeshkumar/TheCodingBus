@@ -1,0 +1,269 @@
+@charset "utf-8";
+html,body{height:100%; margin:0;}
+body {
+	background-color: #069;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.aMob{
+	text-align:center;
+}
+
+#title{
+	padding-top: 5px;
+	text-align: center;
+	background-color: #003747;
+	border-bottom: 4px solid #069;
+}
+
+#title h1{
+	margin-top: -5px;
+	margin-bottom: 2px;
+	font-size: 12px;
+	color: #DDD;
+	text-align: center;
+}
+
+header {width:100%;}
+
+#btMenu{
+	display:none;
+	line-height: 100%;
+	font-size: 26px;
+	padding: 12px;
+	font-weight: bold;
+}
+.icon-menu{
+	float:right;
+	font-size:32px;
+	margin-top: -4px;
+}
+
+#mainMenu {
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+	background:#024959;
+	z-index: 100;
+}
+
+#mainMenu ul {
+	overflow:hidden;
+	list-style:none;
+	padding-left:15px;
+}
+ 
+#mainMenu ul li {float:left;}
+ 
+#mainMenu ul li a {
+	color:#fff;
+	padding:17px;
+	font-size: 16px;
+	display:block;
+	text-decoration:none;
+}
+ 
+#mainMenu ul li span {
+	margin-right:10px;
+}
+ 
+#mainMenu ul li a:hover {background:#037E8C;}
+
+#board{
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+#board ul{
+	list-style-type: none;
+	margin: 2px;
+	padding: 0px;
+}
+
+#board ul li{
+	text-align: center;
+	float: left;
+	width: 25%;
+	height: 115px;
+	font-size: 11px;
+	padding:0px;
+}
+
+#board ul li a:hover{
+	background-color: #036;
+}
+
+#board img{
+	border-radius: 5%;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 5px;
+	box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.64);
+}
+
+#board ul li a{
+	color: #FFF;
+	display: block;
+	padding-right: 6px;
+	padding-left: 6px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+footer{
+	font-size:14px;
+	text-align: center;
+	margin-top: 3em;
+	color: #FFF;
+	background-color: rgba(0,0,0,0.5);
+	padding: 7px;
+	margin-bottom: 10px;
+}
+
+#cookie-frame{
+	width: 100%;
+	height: 50px;
+	position:fixed;
+	bottom: 0px;
+	padding: 7px;
+	background: #000;
+	border-top: 2px solid #000;
+}
+
+#cookie-msg{
+	font: 14px Verdana, Geneva, sans-serif;
+	text-align: justify;
+	color: #EEE;
+}
+#cookie-msg input{float: right;}
+
+.cf{clear: both;}
+.sp5{height: 5px;}
+.sp10{height: 10px;}
+.sp15{height: 15px;}
+.sp20{height: 20px;}
+
+@media screen and (min-width: 360px){
+	#board ul li img{width: 70px; height: 70px;}
+	#board ul li{font-size: 13px; height: 130px;}
+	#btMenu {
+		padding: 14px;
+		font-size: 26px;
+	}
+	.icon-menu{
+		font-size:34px; margin-top: -5px;
+	}
+	#mainMenu ul {padding-left:25px;}
+	#mainMenu ul li a {
+		padding:18px;
+		font-size: 18px;
+	}
+	footer{font-size:16px;padding:10px;}
+}
+
+@media screen and (min-width: 430px){
+	#title h1{
+		font-size: 13px;
+	}
+	#description{font-size: 14px;}
+	#board ul li img{width: 90px; height: 90px;}
+	#board ul li{
+		font-size: 14px;
+		height: 160px;
+	}
+	#mainMenu ul li a {
+		padding:20px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 480px){
+	#title h1{
+		font-size: 14px;
+	}
+	#btMenu {
+		padding: 16px;
+		font-size: 28px;
+	}
+	.icon-menu{
+		font-size:36px; margin-top: -5px;
+	}
+	#mainMenu ul {padding-left:35px;}
+	footer{font-size:18px;padding:14px;margin-bottom: 15px;}
+}
+
+@media screen and (min-width: 600px){
+	#title h1{
+		font-size: 16px;
+	}
+	#description{font-size: 15px;}
+	#board ul li{width: 20%;font-size: 16px;}
+	#btMenu {
+		padding: 20px;
+		font-size: 30px;
+	}
+	.icon-menu{
+		font-size:42px; margin-top: -7px;
+	}
+	#mainMenu ul {padding-left:50px;}
+	#mainMenu ul li a {
+		padding:22px;
+		font-size: 24px;
+	}
+	footer{padding:16px;}
+}
+
+@media screen and (max-width: 800px ){
+	#mainMenu {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position:absolute;
+	}
+ 
+	#mainMenu ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+	#btMenu {
+		display:block;
+		width:100%;
+		background:#024959;
+		color:#fff;
+		text-decoration:none;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+}
+
+@media screen and (max-width: 310px ){
+	#title h1{
+		font-size: 11px;
+	}
+	#board ul li img{width: 50px; height: 50px;}
+	#board ul li{
+		width: 33%;
+		height: 95px;
+		font-size: 11px;
+	}
+	#btMenu {
+		font-size: 16px;
+	}
+	.icon-menu{font-size:24px; margin-top: -5px;}
+	#mainMenu ul{
+		padding-left:5px;
+	}
+	#mainMenu ul li a {
+		padding:10px;
+		font-size: 12px;
+	}
+	footer{font-size:12px;}
+}

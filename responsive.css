@@ -1,0 +1,851 @@
+@media only screen and (max-width: 1440px){
+    .inner_home_banner_section::after {right: 10px; width: 765px; height: 605px;}
+    .padding_bottom_100 {padding-bottom: 80px;}
+    .padding_top_100 {padding-top: 80px;}
+    .home_banner_section {height: 650px;}
+    .hosting_plan_outer_box h1, .section_heading h2, .sub_banner_content h1 {font-size: 44px; line-height: 50px;}
+    .testimonial_sec h1 {font-size: 44px; line-height: 50px; margin-bottom: 25px;}
+    .find_domain_box {padding: 65px 275px 60px 50px;}
+    .feature_heading h1 {font-size: 64px; line-height: 70px;}
+    .purple_plan_box h2 {font-size: 44px; line-height: 50px;}
+    .shared_feature_box .shared_feature_heading_box figure img {width: 40px;}
+    .script_icon_box {width: 140px; height: 140px;}
+    .slider_feature_box_price span {font-size: 26px; line-height: 32px;}
+    .value_text {font-size: 16px; line-height: 22px;}
+    .price_txt, .price_txt #price_val {font-size: 40px; line-height: 46px;}
+    .buynow_button {padding: 15px 30px;}
+    .dedicate_server_table thead th:first-child, .dedicate_server_table thead th:nth-child(4) {font-size: 26px; line-height: 44px;}
+    .dedi_feature_box01::before {top: -110px; left: -95px;}
+    .dedi_feature_box04::after {right: -75px; bottom: -148px;}
+}
+@media only screen and (max-width: 1199px){
+    .font_size_72 {font-size: 58px;}
+    .inner_default_navigation{margin-left: 0}
+    .default_navigation .default_navigation_box .inner_default_navigation li a{margin: 0 15px}
+    /* .guarantee_box{padding: 45px 30px 65px 30px} */
+    .feature_heading h1{font-size: 62px; line-height: 62px;}
+
+
+            /*Header Responsive*/
+    .header_02_navigation_links .menubar_header_02 .header02_dd_menu{top: 52px; left: -30px}
+    .default_dd_menu:before{display: none}
+    .header_02_navigation_links .menubar_header_02 .hosting_dd_menu{top: 52px}
+    .header_02_navigation_links .menubar_header_03 .header02_dd_menu{top: 52px; left: 0 !important;}
+    .footer03_box{padding-bottom: 40px}
+    .footer03_contact_box01 br{display: none}
+    .default_mega_menu{left: 0; width: 100%}
+    .footer02_links_list li a{font-size: 12px; padding: 0 15px}
+    .footer02_content_box p{font-size: 12px}
+    .footer02_contact_list h5{font-size: 18px}
+    .footer01_contact_list li{font-size: 12px; padding: 15px 0 15px 55px}
+    .footer01_links_list li a{font-size: 12px; line-height: 36px}
+    .header03_contact_info li{padding: 0 9%}
+    .copyright_box, .copyright_box a {font-size: 14px;}
+    .footer01_section .padding_top_55 {padding-top: 30px;}
+    .footer_heading {
+        margin-bottom: 10px;
+    }
+    .footer04_box .footer_heading {
+        padding-top: 20px;
+    }
+    .footer04_content_box {
+        padding: 0 20px 60px 50px;
+    }
+
+    .success_story_section_img::after {top: -130px; right: 0px;}
+    .success_story_section_img::before {top: -80px; left: 0px;}
+    .inner_home_banner_section::after {right: 40px; width: 500px; height: 396px;}
+    .nav_contact_list li, .nav_contact_list li a{font-size: 12px; line-height: 17px; font-weight: 700; color: #000; text-transform: uppercase}
+    .nav_contact_list li a.btn_login {font-size: 12px; line-height: 18px; padding: 10px 20px;}
+    .home_banner_section {height: 500px;}
+    .banner_content h1:before {background: url(../images/flame_img.png)no-repeat; width: 140px; height: 93px; top: 4px; left: -94px; background-size: 100%;}
+    .banner_content h1 {font-size: 58px; line-height: 64px;}
+    .build_your_website h1, .find_domain_box h1, .hosting_plan_box01 h1, .hosting_plan_box02 h1, .hosting_plan_box03 h1 {font-size: 40px; line-height: 46px;}
+    .build_your_website:before {width: 340px; height: 212px;}
+    .coa_section:before{position: absolute; content: ""; background: url("../images/coa_bottom_img.png")no-repeat center; width: 100%; height: 181px; left: 0; right: 0; margin: 0 auto; bottom: -50px; background-size: 100%;}
+    .hosting_plan_outer_box:after, .outer_shared_hosting_plan:after {right: -30px; bottom: -74px;}
+    .last_guarantee_box:before {right: -45px;}
+    .find_domain_box:after {width: 290px; right: -6px;}
+    .build_your_website {padding: 65px 130px 60px 30px;}
+    .find_domain_box {padding: 65px 265px 60px 30px;}
+    .hosting_plan_box01, .hosting_plan_box02, .hosting_plan_box03 {padding: 50px 70px 60px 40px;}
+    .hosting_plan_box01 .price_box, .hosting_plan_box02 .price_box, .hosting_plan_box03 .price_box, .shared_plan_box .price_box {font-size: 20px; line-height: 26px;}
+    .btn_plan {font-size: 14px; line-height: 14px; font-weight: 600; padding: 15px 25px;}
+    .section_heading h2 {font-size: 36px; line-height: 42px;}
+    .padding_bottom_100 {padding-bottom: 80px;}
+    .padding_top_100 {padding-top: 80px;}
+    .feature_heading h1 {font-size: 48px; line-height: 54px;}
+    .outer_feature_box:before {bottom: -196px;}
+    .feature_box {padding: 25px 20px;}
+    .feature_box h3 {font-size: 22px; line-height: 28px;}
+    .feature_box p {font-size: 14px; line-height: 20px;}
+    .feature_box figure img {width: 40px;}
+    .success_story_section:before{background: url("../images/success_badge.png")no-repeat center; background-size: contain; height: 212px;}
+    .success_story_section {padding-top: 240px;}
+    .success_story_section .section_heading .margin_bottom_15 {margin-bottom: 5px;}
+    .section_heading p {font-size: 20px; line-height: 26px; margin-bottom: 25px;}
+    .story_box h5 {font-size: 22px; line-height: 28px;}
+    .count_box {font-size: 36px; line-height: 42px;}
+    .counter_outer {width: 100px; height: 100px;}
+    .hosting_plan_outer_box h1, .section_heading h2 {font-size: 36px; line-height: 42px;}
+    .testimonial_sec h1 {font-size: 36px; line-height: 42px;}
+    .build_your_website .price_box {font-size: 20px; line-height: 26px; margin-bottom: 20px;}
+    .testimonial_sec p {font-size: 14px; line-height: 20px;}
+    .testimonial_sec h1 {margin-bottom: 20px;}
+    .client_info h5 {font-size: 22px; line-height: 28px;}
+    .client-logo img {width: 80%;}
+    .footer_box h5 {margin-bottom: 10px;}
+    .padding_top_65 {padding-top: 35px;}
+    .padding_bottom_80 {padding-bottom: 60px;}
+    .purple_plan_box h2, .shared_plan_box h2 {font-size: 40px; line-height: 46px;}
+    .shared_plan_box .btn_plan {padding: 14px 16px;}
+    .shared_plan_box {padding: 35px 30px;}
+    .hosting_plan_box01 .price_box, .hosting_plan_box02 .price_box, .hosting_plan_box03 .price_box, .shared_plan_box .price_box {font-size: 18px; line-height: 24px;}
+    .shared_plan_list li {font-size: 16px; line-height: 22px;}
+    .shared_plan_list li:before {top: 8px;}
+    .outer_shared_hosting_plan:before {left: -125px; width: 200px;}
+    .shared_feature_inner_box {padding: 35px 150px 35px 30px;}
+    .shared_feature_right_box {padding: 35px 30px 35px 150px;}
+    .shared_feature_box:before {width: 430px; height: 500px; left: -40px;}
+    .script_icon_box {width: 120px; height: 120px;}
+    .section_heading p {font-size: 16px; line-height: 22px; margin-bottom: 20px;}
+    .outer_script_icon_box h3 {font-size: 20px; line-height: 26px;}
+    .free_install_software .padding_bottom_20 {padding-bottom: 0;}
+    .btn_reseller_plan {font-size: 12px; line-height: 18px;padding: 12px 10px; letter-spacing: 0.5px;}
+    .reseller_plan_table tbody tr:first-child td {font-size: 24px; line-height: 40px;}
+    .reseller_plan_table tbody td {font-size: 16px; line-height: 16px;}
+    .reseller_feature_heading {font-size: 26px; line-height: 40px;}
+    #accordion2 .card-header button[aria-expanded="true"]:before {top: 18px}
+    #accordion2 .card-header button[aria-expanded="false"]:before {top: 18px}
+    .technical_specification_list li {font-size: 14px; line-height: 28px;}
+    .margin_bottom_75 {margin-bottom: 50px;}
+    .inner_slider_feature_box figure img {width: 54px; height: 54px;}
+    .price_rangetxt div.icon span {font-size: 26px; line-height: 32px;}
+    .slider_feature_box_price span {font-size: 22px; line-height: 28px;}
+    .vps_slider_order_box {padding: 30px 0;}
+    .slider_nodes {width: 90%; margin: 0 auto;}
+    .btn_get_started {margin-top: 20px; font-size: 16px; line-height: 16px; padding: 14px 38px;}
+    .vps_feature_box h3 {font-size: 26px; line-height: 32px;}
+    .vps_feature_box p {font-size: 16px; line-height: 22px;}
+    .domain_offer_box .inner_domain_offer_box {padding: 0 55px;}
+    .domain_offer_box {width: 290px; height: 290px;}
+    .domain_offer_box .inner_domain_offer_box h3, .domain_offer_center_box .inner_domain_offer_box h3 {font-size: 36px; line-height: 42px; margin-bottom: 5px;}
+    .domain_offer_box .inner_domain_offer_box p, .domain_offer_center_box .inner_domain_offer_box p {font-size: 16px; line-height: 22px; margin-bottom: 5px;}
+    .domain_offer_box .inner_domain_offer_box .domain_offer_price_box, .domain_offer_center_box .inner_domain_offer_box .domain_offer_price_box {font-size: 36px; line-height: 42px; margin-bottom: 10px;}
+    .domain_offer_box .inner_domain_offer_box .btn_domain_offer_box, .domain_offer_center_box .inner_domain_offer_box .btn_domain_offer_box {font-size: 12px; padding: 10px 20px;}
+    .domain_offer_center_box {width: 430px; height: 430px;}
+    .domain_offer_center_box .inner_domain_offer_box {padding: 0 125px;}
+    .domain_offer_center_box::before {left: -270px;}
+    .domain_offer_center_box::after {right: -290px; top: 0px;}
+    .domain_offer_last_box:before {right: 40px;}
+    .search_domain_field {font-size: 20px; line-height: 30px;}
+    .search_domain_btn {line-height: 30px; padding: 20px;}
+    .outer_domain_names {padding: 40px 14px;}
+    .outer_search_filed::before {top: -115px;}
+    .outer_search_filed::after {bottom: -140px; left: 358px;}
+    .domain_table thead th {font-size: 20px; line-height: 26px;}
+    .dedicate_server_table thead th:first-child, .dedicate_server_table thead th:nth-child(4) {font-size: 20px; line-height: 36px; padding: 10px 10px 10px 15px;}
+    .btn_dedi_server {font-size: 12px; padding: 10px 30px;}
+    .dedicate_server_table tbody td {font-size: 16px; line-height: 16px;}
+    .hosting_guarantee .margin_bottom_70 {margin-bottom: 50px;}
+    .guarantee_box {padding: 35px 25px;}
+    .dedi_feature_box01::before {top: -80px; left: 25px;}
+    .dedi_feature_box04::after {right: -25px; bottom: -114px;}
+    .dedi_feature_box h3 {font-size: 24px; line-height: 30px; margin-bottom: 5px;}
+    .dedi_feature_box p {font-size: 14px; line-height: 20px;}
+    .dedi_feature_img figure img {width: 100%;}
+    .our_history_box h3 {font-size: 44px; line-height: 48px; margin-bottom: 20px;}
+    .our_history_box p {font-size: 14px; line-height: 24px;}
+    .company_content .font_size_18 {font-size: 14px; line-height: 20px; padding-bottom: 30px;}
+    .company_content .font_size_24 {font-size: 20px; line-height: 26px;}
+    .company_content h2 {font-size: 36px; line-height: 42px;}
+    .team_box figure img {width: 100%;}
+    .team_section .margin_bottom_80 {margin-bottom: 60px;}
+    .team_box h4 {font-size: 26px; line-height: 30px;}
+    .team_box p {font-size: 16px; line-height: 22px;}
+    .team_social_list li a {width: 34px; height: 34px;}
+    .team_social_list li a i {font-size: 16px;}
+    .mailing_box01 {padding: 30px 230px 35px 50px}
+    .mail_address_box h3 {font-size: 26px; line-height: 34px;}
+    .mail_address_box p {font-size: 16px; line-height: 28px;}
+    .mailing_plan::before {width: 136px; left: -28px;}
+    .mailing_box02 {margin-left: 85px; padding: 30px 0 35px 45px;}
+    .mailing_box03 {padding: 30px 0 35px 200px;}   
+    .mail_address_img {width: 320px; top: 50px;} 
+    .contact_form_fields {font-size: 16px; line-height: 26px;}
+}
+@media only screen and (max-width: 991px) {
+    .default_top_bar{display: none}
+    .default_toggle_btn .navbar-toggler-icon, .one_page_mobile_logo .navbar-toggler-icon {background: url(../images/svg/mobile_toogle_button.svg)}
+    .default_toggle_btn:focus{outline: none}
+
+        /*Header Footer Responsive*/
+    .nav_contact_list li a::before, .header01_top_bar{display: none;}
+    .hosting_dd_menu {width: 208px;}
+    .hide_on_tablet{display: none}
+    .mobile_navigation{display: block}
+    .header01_top_bar_content, .header01_top_bar_btn, .header01_contact_info_box{display: none}
+    .header01_mobile_toggle span, .header04_toggle span, .header05_toggle span, .header03_mobile_toggle span{background: url("../images/svg/mobile_toogle_button.svg")}
+    .outer_header01_logo{text-align: left}
+    .outer_header01_logo a{padding: 9px 15px 10px}
+    .header01_mobile_toggle{position: absolute; top: 5px; right: 10px; padding: 0}
+    .header01_navigation{top: 20px}
+    .header01_mobile_toggle:focus{outline: none}
+    .outer_header01_navbar {position: absolute; width: 30%; top: 100%; right: 0; background-color: #fa2c68; padding: 10px 0}
+    .header01_navbar li a{font-size: 14px; padding: 10px 25px !important; color: #fff !important;}
+    .header01_navbar li.show a{background-color: #fff !important; color: #000 !important;}
+    .header01_navbar li .header01_dd_menu a{background-color: transparent !important; color: #000 !important; text-transform: capitalize; padding: 5px 25px !important;}
+    .header01_navbar .mobile_navigation li a{background-color: transparent !important; text-transform: capitalize; color: #000 !important; display: inline-block; padding: 5px 20px !important;}
+    .header01_navbar .header01_dd_menu04.show  a{background-color: transparent !important; text-transform: capitalize; color: #000 !important; padding: 5px 25px !important;}
+    .footer01_links_list li{padding-left: 0}
+    .outer_header03_contact_info{display: none}
+    .header04_toggle{position: absolute; right: 30px; top: 13px; padding: 0}
+    .header04_toggle:focus{outline: none}
+    .header03_outer{position: absolute; background-color: #fa2c68; top: 56px; right: 0; width: 30%; z-index: 9; padding: 10px 0}
+    .padding_top_20{padding-top: 10px}
+    .padding_bottom_20{padding-bottom: 10px}
+    .header05_toggle{position: absolute; right: 0; top: -34px}
+    .header04_top_bar{display: none}
+    .header05_toggle:focus{outline: none}
+    .header04_outer_box{position: absolute; width: 30%; background-color: #fa2c68; top: 10px; right: 0; z-index: 9}
+    .inner_header04_outer_box{padding: 10px 0}
+    .default_footer_list li, .default_footer_list li a{font-size: 12px; line-height: 24px}
+    .default_footer_top_box{padding-bottom: 30px; margin-bottom: 30px}
+    .margin_bottom_60{margin-bottom: 30px}
+    .mobile_toggle_btn{padding: 0; border: none}
+    .footer01_contact_list br{display: none}
+    .footer01_social_links li a{font-size: 14px; padding: 0 5px}
+    .outer_logo_box{padding-bottom: 30px; float: left; width: 100%}
+    .outer_footer01_content_box{padding-top: 30px}
+    .copyright_box, .copyright_box a{font-size: 14px}
+    .footer02_links_list li a{font-size: 14px; padding: 0 15px}
+    .footer02_list_link .footer02_links_list{text-align: center}
+    .footer02_chat_btn{text-align: center !important; float: none !important; margin-top: 20px; margin-bottom: 10px}
+    .footer02_logo, .footer02_content_box p{margin-bottom: 20px}
+    .footer02_content_box{margin-bottom: 20px}
+    .footer02_contact_list .footer_heading, .footer02_link_box .footer_heading{font-size: 18px}
+    .footer02_outer_copyright {padding: 30px 15px 0;}
+    .header_02_logo{display: none}
+    .header02_mobile_logo{display: block}
+    .header02_mobile_logo img{width: 150px}
+    .header_02_top_navigation{padding: 10px 1px}
+    .header03_mobile_toggle:focus{outline: none}
+    .menubar_header_03{float: none !important;}
+    .header02_inner_navigation{position: absolute; background-color: #fa2c68; right: 0; width: 30%; top: 100%; z-index: 9; padding: 10px 0}
+    .menubar_header_02 li:first-child a{padding-left: 25px !important;}
+    .menubar_header_02 li a, .header02_right_side li a{color: #fff; padding: 8px 25px !important; font-size: 14px}
+    .menubar_header_02 li.show a{background-color: #fff}
+    .header_02_navigation_links .menubar_header_02 .header02_dd_menu{background-color: #fff !important; border-radius: 4px}
+    .menubar_header_02 .header02_dd_menu a, .header_02_navigation_links .menubar_header_03 .header02_dd_menu a{background-color: transparent !important;}
+    .menubar_header_02 .mobile_navigation li a{background-color: transparent !important; color: #000; font-size: 14px; text-transform: capitalize; padding: 5px 25px !important; display: inline-block}
+    .menubar_header_03 li.show a{background-color: #fff}
+    .menubar_header_03 .header02_dd_menu{border-radius: 0 !important;}
+    .header03_mobile_toggle{padding: 0; z-index: 999}
+    .footer03_contact_box01, .footer03_contact_box02, .footer03_contact_box03{padding-left: 40px}
+    .footer03_contact_box01:before{top: 10px; left: 5px}
+    .footer03_contact_box02:before{top: 20px; left: 0;}
+    .footer03_contact_box03:before{top: 10px; left: 10px}
+    .footer03_contact_box01 div, .footer03_contact_box02 div, .footer03_contact_box03 div{font-size: 12px}
+    .header03_navbar li a{padding: 10px 20px !important;}
+    .header03_navbar li.show a{background-color: #fff; color: #000}
+    .header03_dropdown{margin: 0; background-color: #fff; border-radius: 0}
+    .header03_navbar .header03_dropdown a{background-color: transparent !important; color: #000 !important; padding: 5px 30px !important;}
+    .header03_navbar .mobile_navigation li a{display: inline-block; font-size: 14px; text-transform: capitalize; background-color: transparent !important; color: #fff !important; padding: 5px 20px !important;}
+    .header04_logo_box{margin-bottom: 0}
+    .header04_main_box{padding: 10px 0; background-color: #fff}
+    .header05_toggle{padding: 0}
+    .header05_toggle:focus{outline: none}
+    .header04_navbar li a{padding: 10px 20px !important;}
+    .header04_navbar li.show a{background-color: #fff; color: #000}
+    .header04_dropdown{margin: 0; background-color: #fff; border-radius: 4px}
+    .header04_navbar .header04_dropdown a{background-color: transparent !important;; color: #000 !important;}
+    .header04_navbar .mobile_navigation li a{display: inline-block; font-size: 14px; text-transform: capitalize; background-color: transparent !important; color: #000 !important; padding: 5px 20px !important;}
+    .footer04_contact_box01 div br{display: none}
+    .footer04_contact_box01 div, .footer04_contact_box02 div, .footer04_contact_box03 div{font-size: 12px; line-height: 22px}
+    .footer04_contact_box01:before, .footer04_contact_box03:before{top: 5px}
+    .footer04_contact_box02:before{top: 15px}
+    .footer04_copyright{margin-bottom: 30px}
+    .padding_bottom_75{padding-bottom: 40px}
+    .padding_top_75{padding-top: 40px}
+    .padding_left_40{padding-left: 0}
+    .menubar_header_02 .header02_dd_menu a, .header_02_navigation_links .menubar_header_03 .header02_dd_menu a{color: #000}
+    .menubar_header_02 li a:hover, .header02_right_side li a:hover{color: #000}
+    .one_page_navigation{padding: 10px}
+    .outer_logo_box .footer01_logo {
+        float: none!important;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .copyright_box {
+        text-align: center;
+        float: none!important;
+        padding-left: 0;
+    }
+    .footer01_content_box .margin_bottom_30 {margin-bottom: 15px;}
+    .footer01_content_box, .footer03_content_box {
+        text-align: center;
+    }
+    .footer01_links_list {
+        display: none;
+    }
+    .footer01_contact_list li:first-child {
+        padding-top: 15px;
+    }
+    .footer01_contact_list li {
+        padding-bottom: 0;
+        border: none;
+        width: 33.33%;
+        float: left;
+    }
+    .footer01_contact_list li:last-child {
+        border-bottom: none;
+    }
+    .footer02_logo {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer02_content_box {
+        float: none!important;
+    }
+    .footer02_content_box p {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer02_link_box {
+        display: none;
+    }
+    .footer02_link_box {
+        display: none;
+    }
+    .footer02_contact_list .footer_heading {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .footer03_box .hide_on_tablet, .footer04_box .hide_on_tablet {
+        display: none;
+    }
+    .footer03_contact_box01, .footer03_contact_box02, .footer03_contact_box03 {
+        padding-left: 60px;
+    }
+    .footer03_last {padding: 20px 0;}
+    .header03_mobile_toggle{margin-top: 1px;}
+    .footer04_contact_info_box .padding_top_20 {
+        padding-top: 15px;
+    }
+    .footer04_contact_box01:before {
+        top: 15px;
+        left: 15px;
+    }
+    .footer04_contact_box02, .footer04_contact_box03 {
+        padding-left: 70px;
+    }
+    .footer04_contact_box03:before {
+        top: 15px;
+        left: 15px;
+    }
+    .footer04_contact_box02:before {
+        left: 25px;
+        top: 20px;
+    }
+    .footer04_contact_box01 {
+        padding-left: 60px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .footer04_box .footer_heading {
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+    .footer04_content_box {
+        padding: 0 20px 40px 20px;
+    }
+    .footer04_content_box {
+        text-align: center!important;
+    }
+    .default_navigation .default_navigation_box {
+        padding: 10px 0;
+        background-color: rgb(253, 253, 254);
+        width: 30%;
+        right: 0;
+        top: 100%;
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    }
+    .default_navigation .default_navigation_box .inner_default_navigation li a {padding: 5px 0;}
+
+    .inner_home_banner_section::after {right: 20px; width: 450px; height: 356px;}
+    .find_domain_box:after {width: 240px; right: -6px; bottom: 0; height: 180px;}    
+    .tablet_btn_login {float: left;}
+    .tablet_btn_login a {display: inline-block;}
+    .nav_contact_list li:first-child {text-align: left; padding: 3px 0 0 20px;}
+    .banner_content h1:before {width: 110px; height: 93px; top: 3px; left: -75px;}
+    .home_banner_section {height: 450px;}
+    .banner_content h1 {font-size: 42px; line-height: 48px;}
+    .build_your_website h1, .find_domain_box h1, .hosting_plan_box01 h1, .hosting_plan_box02 h1, .hosting_plan_box03 h1 {font-size: 28px; line-height: 34px;}
+    .build_your_website:before {width: 484px; height: 212px;}
+    .find_domain_box {padding: 65px 265px 60px 55px; border-radius: 0;}
+    .find_domain_box:before {height: 192px;}
+    .build_your_website {padding: 65px 130px 60px 55px;}
+    .find_domain_box {padding: 65px 265px 60px 55px; border-radius: 0;}
+    .hosting_plan_box01 {border-radius: 0;}
+    .hosting_plan_box01, .hosting_plan_box02, .hosting_plan_box03 {padding: 30px 70px 30px 55px;}
+    .hosting_plan_box01 h1, .hosting_plan_box02 h1, .hosting_plan_box03 h1 {margin-bottom: 5px;}
+    .btn_plan {font-size: 12px; line-height: 20px; padding: 10px 30px;}
+    .hosting_plan_box01 .price_box, .hosting_plan_box02 .price_box, .hosting_plan_box03 .price_box, .shared_plan_box .price_box {margin-bottom: 20px; }
+    .hosting_plan_box01 .price_box, .hosting_plan_box02 .price_box, .hosting_plan_box03 .price_box, .shared_plan_box .price_box {font-size: 20px; line-height: 26px;}
+    .section_heading h2 {font-size: 28px; line-height: 34px;}
+    .guarantee_box {padding: 30px 0;}
+    .guarantee_box figure img {width: 54px;}
+    .outer_feature_box .margin_bottom_30 {margin-bottom: 0;}
+    .feature_box {padding: 20px 60px; border-radius: 0; opacity: 0.9;}
+    .feature_box_tablet01 .feature_box{border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom: 1px solid #eeeeee;}
+    .feature_box_tablet02 .feature_box{border-bottom: 1px solid #eeeeee;}
+    .feature_box_tablet03 .feature_box{border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; border-top: 1px solid #eeeeee;}
+    .padding_bottom_100 {padding-bottom: 50px;}
+    .padding_top_100 {padding-top: 50px;}
+    .feature_heading h1 {font-size: 36px; line-height: 42px; margin-bottom: 15px;}
+    .outer_feature_box:before {bottom: -196px;}
+    .feature_box h3 {font-size: 20px; line-height: 26px;}
+    .feature_box p {font-size: 14px; line-height: 20px;}
+    .feature_box figure img {width: 48px;}
+    .success_story_section:before{background: url("../images/success_badge.png")no-repeat center; background-size: contain; height: 196px;}
+    .success_story_section {padding-top: 210px;}
+    .success_story_section .section_heading .margin_bottom_15 {margin-bottom: 5px;}
+    .section_heading p {font-size: 16px; line-height: 22px; margin-bottom: 20px;}
+    .story_box h5 {font-size: 18px; line-height: 24px;}
+    .count_box {font-size: 30px; line-height: 36px;}
+    .counter_outer {width: 90px; height: 90px;}
+    .hosting_plan_outer_box h1, .section_heading h2 {font-size: 28px; line-height: 34px;}
+    .testimonial_sec h1 {font-size: 28px; line-height: 34px;}
+    .build_your_website .price_box {font-size: 20px; line-height: 26px; margin-bottom: 20px;}
+    .testimonial_sec p {font-size: 14px; line-height: 20px;}
+    .testimonial_sec h1 {margin-bottom: 10px;}
+    .client_info h5 {font-size: 18px; line-height: 24px; padding-top: 15px;}
+    .margin_bottom_35 {margin-bottom: 20px;}
+    .testimonial_sec:before {background: url(../images/quote-icon.png)no-repeat; top: 0px; right: -60px; background-size: 80%;}
+    .client_info span {font-size: 14px; line-height: 20px;}
+    .btn_success_story {padding: 15px 30px}
+    .img_br {width: 100%;}
+    .guarantee_box_tablet {margin-bottom: 20px;}
+    .guarantee_box h5 {font-size: 16px; line-height: 22px;}
+    .last_guarantee_box:before {right: -40px;}
+    .margin_bottom_60 {margin-bottom: 40px;}
+    .coa_section .section_heading:before {left: 120px;}
+    .footer_box h5 {font-size: 18px; line-height: 24px;}
+    .default_footer_links li a {font-size: 14px; line-height: 20px;}
+    .default_footer_social_links li {line-height: 24px;}
+    .social_links .icon_img {width: 38px; height: 38px;}
+    .line_height_46 {line-height: 38px;}
+    .sub_banner_content h1 {font-size: 38px; line-height: 44px;}
+    .hosting_plan_outer_box h1, .section_heading h2 {font-size: 28px; line-height: 34px;}
+    .section_heading .margin_bottom_15 {margin-bottom: 10px;}
+    .sub_banner_content p {font-size: 18px; line-height: 24px; padding-right: 200px;}
+    .sub_banner01, .sub_banner02, .sub_banner03, .sub_banner04, .sub_banner05 {height: 330px;}
+    .breadcrumb_list li a {font-size: 12px; line-height: 18px; letter-spacing: 0.5px;}
+    .shared_plan_box {padding: 35px 50px;}
+    .shared_plan_box .btn_plan {padding: 5px 16px;}
+    .purple_plan_box h2, .shared_plan_box h2 {font-size: 34px; line-height: 40px; margin-bottom: 5px;}
+    .hosting_plan_box01 .price_box, .hosting_plan_box02 .price_box, .hosting_plan_box03 .price_box, .shared_plan_box .price_box {font-size: 16px; line-height: 22px;}
+    .hosting_plan_box01 .price_box, .hosting_plan_box02 .price_box, .hosting_plan_box03 .price_box, .shared_plan_box .price_box {margin-bottom: 10px;}
+    .hosting_guarantee .tablet_view {margin-bottom: 20px;}
+    .shared_feature_box .shared_feature_heading_box figure {padding-right: 10px; padding-top: 5px;}
+    .shared_feature_heading h3 {font-size: 22px; line-height: 28px;}
+    .shared_feature_inner_box {padding: 35px 40px 35px 30px;}
+    .shared_feature_box:before {display: none;}
+    .script_icon_box {width: 90px; height: 90px;}
+    .outer_script_icon_box h3 {font-size: 18px; line-height: 24px; padding-bottom: 30px;}
+    .inner_script_icon_box figure img {width: 40px;}
+    .section_heading {margin-bottom: 30px;}
+    .free_install_software .padding_bottom_20 {padding-bottom: 0; margin-bottom: 10px;}
+    #accordion01 .card-header button[aria-expanded="true"]{font-size: 18px; line-height: 24px;}
+    #accordion01 .card-header button[aria-expanded="false"]{font-size: 18px; line-height: 24px;}
+    #accordion01 .card-header button[aria-expanded="true"]:before {top: 8px;}
+    #accordion01 .card-header button[aria-expanded="false"]:before {top: 8px;}
+    .question_content_body {padding: 0 0 0 70px;font-size: 16px; line-height: 22px;}
+    .reseller_plan_table th {font-size: 22px; line-height: 36px;}
+    .reseller_plan_table td, .reseller_plan_table th {width: 260px;}
+    .reseller_plan_table tbody tr:first-child td {font-size: 18px; line-height: 34px;}
+    .reseller_plan_table tbody td {font-size: 14px; line-height: 14px; padding: 15px 20px;}
+    .reseller_plan_table tbody .plan_section_btn td {padding: 20px 0px;}
+    .btn_reseller_plan {letter-spacing: 0px;}
+    .outer_reseller_hosting_plan:after {width: 126px; background-size: 100%;}
+    .reseller_feature_box {padding: 45px 20px; border-radius: 10px;}
+    .reseller_feature_box h3 {font-size: 24px; line-height: 24px;}
+    .sliderbox {display: none}
+    .price_rangetxt div.icon span {font-size: 22px; line-height: 28px;}
+    .slider_nodes {width: 100%;}
+    .price_rangetxt {width: 100%; padding: 30px 60px;}
+    .vps_slider_feature_box {padding: 10px;}
+    .inner_slider_feature_box figure img {width: 44px; height: 44px;}
+    .value_text {font-size: 14px; line-height: 20px;}
+    .slider_feature_box_price span {font-size: 20px; line-height: 26px;}
+    .vps_slider_order_box {padding: 20px 0;}
+    .price_txt, .price_txt #price_val {font-size: 30px; line-height: 36px;}
+    .buynow_button {font-size: 16px; line-height: 16px;}
+    .buynow_button {padding: 13px 20px;}
+    .outer_shared_hosting_plan:after {width: 126px;}
+    .outer_shared_hosting_plan:before {width: 184px;}
+    .private_server_tablet_img img {width: 102%;}
+    .private_server_tablet_content {padding-top: 40px; padding-left: 50px;}  
+    .btn_get_started {margin-top: 0px; font-size: 14px; line-height: 14px; padding: 12px 28px;}
+    .hosting_quality {padding: 0}
+    .vps_feature_img {width: 80px; height: 80px;}
+    .vps_feature_img figure img {width: 36px;}
+    .vps_feature_box h3 {font-size: 20px; line-height: 26px;}
+    .vps_feature_box p {font-size: 14px; line-height: 20px;}
+    .domain_offer_box {width: 300px; height: 300px; margin: 0 auto;}
+    .domain_offer_center_box {width: 450px; height: 450px; margin: 0 50px 0 auto;}
+    .domain_offer_center_box::after {right: -130px; top: -100px;}
+    .domain_offer_center_box::before {left: -70px;}
+    .table th {color: #fff; background-color: #5d088e;}
+    .domain_offer_last_box {top: -130px;}
+    .search_domain_field {width: 79%; font-size: 16px; line-height: 22px;}
+    .search_domain_btn {line-height: 30px; padding: 16px;}
+    .outer_domain_names {padding: 30px 14px;}
+    .outer_domain_names .font_size_30 {font-size: 26px; line-height: 26px;}
+    .outer_search_filed::before {top: -75px; left: 30px;}
+    .outer_search_filed::after {bottom: -110px; left: 316px;}
+    .domain_table tbody td {font-size: 16px}
+    .dedicate_server_table tbody td {padding: 15px 0 15px 60px;}
+    .dedi_feature_box h3 {font-size: 20px; line-height: 26px; margin-bottom: 10px;}
+    .dedi_feature_box figure img {width: 36px;}
+    .dedi_feature_img figure {padding-top: 100px;}
+    .dedi_feature_box04::after {bottom: -84px;}
+    .outer_our_history_box {padding: 35px 55px;}
+    .history_red_box {border-radius: 22px 22px 0 0;}
+    .history_blue_box {border-radius: 0 0 22px 22px;}
+    .our_history_box h3 {font-size: 36px; line-height: 42px; margin-bottom: 10px;}
+    .company_story_section .padding_top_50 {padding-top: 0;}
+    .company_content .font_size_18 {padding-bottom: 10px;}
+    .company_content .font_size_24 {font-size: 18px; line-height: 24px;}
+    .company_content h2 {font-size: 28px; line-height: 34px;}
+    .team_section .margin_bottom_80 {margin-bottom: 40px;}
+    .team_box h4 {font-size: 20px; line-height: 26px; margin-bottom: 0;}
+    .team_box p {font-size: 14px; line-height: 20px; margin-bottom: 5px;}
+    .team_social_list li a {width: 28px; height: 28px;}
+    .team_social_list li a i {font-size: 14px;}
+    .mailing_box01 {padding: 20px 130px 25px 30px;}
+    .mailing_plan::before {width: 116px; left: -18px;}
+    .mailing_box02 {margin-left: 55px; margin-top: 25px; padding: 30px 0 35px 30px;}
+    .mailing_box03 {padding: 25px 10px 30px 130px; margin-top: 65px;}
+    .mailing_plan::after {bottom: 30px; right: 122px;}
+    .mail_address_img {width: 270px; top: 50px;}
+    .mail_address_box h3 {font-size: 20px; line-height: 28px;}
+    .mail_address_box p {font-size: 14px; line-height: 24px;}
+    .contact_form_fields {font-size: 14px; line-height: 24px;}
+    .btn_submit_message {font-size: 12px; line-height: 12px;}
+}
+@media only screen and (max-width: 767px){
+
+
+        /*Header Footer Responsive*/
+    .footer01_content_box p, .footer01_links_list{display: none}
+    .footer01_content_box .footer01_social_links{text-align: center}
+    .outer_footer01_content_box{padding-top: 20px}
+    .header01_navigation{top: 15px}
+    .header01_top_bar{padding: 10px 0 60px}
+    .footer02_content_box p, .footer02_link_box .footer_heading{display: none}
+    .footer02_logo img{width: 100px}
+    .footer02_logo{margin-bottom: 10px; text-align: center}
+    .footer02_contact_list .footer_heading{margin-bottom: 10px; padding-left: 40px}
+    .footer02_outer_copyright .copyright_box{float: none !important; text-align: center !important; width: 100%; margin-bottom: 10px}
+    .footer02_outer_copyright .footer01_social_links{text-align: center; width: 100%}
+    .outer_footer01_social_links{margin: 0 auto}
+    .footer02_center_box{padding-bottom: 20px}
+    /*Header Footer Responsive*/
+    .left_box, .right_box{display: none}
+    .header02_inner_navigation{width: 50%}
+    .header02_mobile_logo img{width: 100px}
+    .footer03_logo{ text-align: center; margin-bottom: 0; float: none !important; margin-top: 10px}
+    .footer03_box{display: none}
+    .footer03_contact_outer{padding-top: 30px; padding-left: 60px}
+    .footer03_contact_box01, .footer03_contact_box02, .footer03_contact_box03{padding-left: 50px}
+    .header03_logo img{width: 100px}
+    .header04_toggle{right: 15px; top: 10px}
+    .outer_header03_logo{padding: 0}
+    .header05_toggle{top: -36px}
+    .footer04_copyright{font-size: 12px; line-height: 22px; margin-bottom: 20px}
+    .footer04_logo img, .header01_logo img, .footer01_logo figure img{width: 100px}
+    .outer_header01_navbar{width: 50%}
+    .padding_bottom_75{padding-bottom: 30px}
+    .padding_top_75{padding-top: 30px}
+    .outer_logo_box{text-align: center}
+    .footer01_logo{float: none !important;}
+    .footer01_logo figure{margin-bottom: 5px}
+    .footer01_section .copyright_box{float: none !important;}
+    .footer01_section .copyright_box, .footer01_section .copyright_box a{font-size: 12px}
+    .header03_outer, .header04_outer_box{width: 50%}
+    .footer03_copyright{float: none !important; text-align: center; font-size: 12px}
+    .hide_on_mobile{display: none}
+    .footer04_contact_info_box{margin-bottom: 0; padding-left: 70px; margin-top: 20px}
+    .footer01_content_box .footer01_social_links {
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #352240;
+        margin-bottom: 25px;
+    }
+    .outer_logo_box {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+    .footer01_section .padding_top_55 {
+        padding-top: 15px;
+    }
+    .footer01_contact_list li, .footer01_contact_list li:first-child {
+        text-align: center;
+        padding: 60px 30px 10px;
+        line-height: 20px;
+    }
+    .footer01_contact_list li:nth-child(2) {
+        padding-top: 50px;
+    }
+    .footer01_contact_list li:last-child {
+        padding-bottom: 0;
+    }
+    .footer01_contact_list li {
+        width: 100%;
+    }
+    .footer01_contact_list li:nth-child(1):before, .footer01_contact_list li:nth-child(2):before {
+        top: 6px;
+        left: 45%;
+    }
+    .footer01_contact_list li:nth-child(3):before {
+        top: 6px;
+        left: 44%;
+    }
+    .footer03_contact_box01, .footer03_contact_box02, .footer03_contact_box03 {
+        padding-left: 50px;
+    }
+    .footer03_contact_outer {
+        padding: 10px 50px 10px 100px;
+    }
+    .footer03_contact_box03:before {
+        left: -1px;
+    }
+    .header03_mobile_toggle{margin-top: 5px;}
+    .footer04_contact_info_box {
+        margin-bottom: 0;
+        padding: 10px 50px 10px 50px;
+        margin: 0 30px;
+    }
+    .footer04_contact_box01, .footer04_contact_box02 {
+        border-right: none;
+    }
+    .footer04_contact_box02:before {
+        left: 20px;
+        top: 20px;
+    }
+    .hosting_dd_menu {
+        width: 198px;
+    }
+    .default_dd_menu {width: 196px;}
+    .nav_contact_list li:first-child {display: none;}
+    .nav_contact_list li a.btn_login {padding: 7px 15px; margin-left: 14px;}
+
+    .inner_home_banner_section::after {right: 10px; width: 250px; height: 198px;}
+    .default_logo img {width: 100px;}
+    .banner_content h1 {font-size: 26px; line-height: 32px; padding: 0 40px;}
+    .home_banner_section {height: 370px;}
+    .banner_content h1:before {width: 72px; height: 93px; top: 1px; left: -11px;}
+    .banner_btn {font-size: 12px; padding: 10px 35px; margin-left: 40px;}
+    .banner_content h1 {margin-bottom: 30px;}
+    .build_your_website:before {width: 388px; height: 184px;}
+    .build_your_website {padding: 35px 130px 40px 35px;}
+    .build_your_website h1, .find_domain_box h1, .hosting_plan_box01 h1, .hosting_plan_box02 h1, .hosting_plan_box03 h1 {font-size: 20px; line-height: 26px;}
+    .build_your_website h1 {margin-bottom: 10px;}
+    .btn_plans {font-size: 12px; padding: 10px 25px; position: relative;}
+    .build_your_website .price_box {font-size: 16px; line-height: 22px; margin-bottom: 20px;}
+    .find_domain_box {padding: 65px 190px 60px 35px;}
+    .find_domain_box:after {width: 250px; right: -6px; height: 182px; bottom: 0; z-index: -1;}
+    .find_domain_box:before {background-size: 100%; width: 250px;}
+    .hosting_plan_box01 .price_box, .hosting_plan_box02 .price_box, .hosting_plan_box03 .price_box, .shared_plan_box .price_box {font-size: 14px; line-height: 20px;}
+    .btn_plan {line-height: 18px; padding: 8px 20px;}
+    .padding_bottom_100 {padding-bottom: 30px;}
+    .padding_top_100 {padding-top: 30px;}
+    .hosting_plan_outer_box:after, .outer_shared_hosting_plan:after{width: 102px; right: -15px;}
+    .section_heading h2 {font-size: 20px; line-height: 26px;}
+    .margin_bottom_60 {margin-bottom: 30px;}
+    .guarantee_box h5 {font-size: 14px; line-height: 20px;}
+    .guarantee_box {padding: 20px 0;}
+    .guarantee_box figure img {width: 48px;}
+    .last_guarantee_box:before {right: -15px;}
+    .feature_heading h1 {font-size: 22px; line-height: 28px; margin-bottom: 15px;}
+    .feature_box h3 {font-size: 16px; line-height: 22px;}
+    .feature_box figure img {width: 42px;}
+    .feature_box {padding: 20px 20px}
+    .outer_feature_box:before {bottom: -30px; left: -64px;}
+    .story_box h5 {font-size: 14px; line-height: 20px;}
+    .count_box {font-size: 22px; line-height: 28px;}
+    .counter_outer {width: 80px; height: 80px;}
+    .success_story_section:before {height: 166px;}
+    .success_story_section {padding-top: 180px;}
+    .section_heading p {font-size: 14px; line-height: 20px; margin-bottom: 15px;}
+    .btn_success_story {padding: 13px 20px;}
+    .btn_success_story {font-size: 12px;}
+    .font_size_48 {font-size: 20px; line-height: 26px;}
+    .img_br {width: 90%;}
+    .client_info h5 {font-size: 16px; line-height: 22px; padding-top: 10px; padding-bottom: 0;}
+    .client_info span {font-size: 12px; line-height: 18px;}
+    .testimonial_sec:before {right: 0px; background-size: 60%;}
+    .mobile_margin {margin: 20px 0;}
+    .coa_section:before {bottom: -80px;}
+    .btn_success_story {padding: 10px 20px;}
+    .coa_section .section_heading:before {left: 20px;}
+    .footer_box h5 {font-size: 16px; line-height: 22px;}
+    .social_links .icon_img {width: 34px; height: 34px;}
+    .line_height_46 {line-height: 34px;}
+    .padding_bottom_80 {padding-bottom: 30px;}
+    .upper_footer_box .mobile_view {display: none;}
+    .upper_footer_box .mobile_view_center {text-align: center;}
+    .footer_mobile_view {text-align: center;}
+    .footer_mobile_view .float-right {float: none!important;}
+    .sub_banner01,.sub_banner02, .sub_banner03, .sub_banner04, .sub_banner05 {height: 310px;}
+    .sub_banner_content {padding-left: 20px;}
+    .sub_banner_content h1 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .sub_banner_content p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 100px;
+    }
+    .yellow_plan_box, .red_plan_box {
+        border-radius: 0;
+    }
+    .outer_shared_hosting_plan:before {
+        left: -75px;
+        top: -35px;
+        width: 134px;
+    }
+    .purple_plan_box h2, .shared_plan_box h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 3px;
+    }
+    .shared_plan_box {text-align: center;}
+    .shared_plan_list li:before {
+        display: none;
+    }
+    .shared_plan_box .btn_plan {
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .hosting_plan_outer_box:after, .outer_shared_hosting_plan:after {
+        right: -15px;
+        bottom: -100px;
+    }
+    .hosting_guarantee .mobile_view {margin-bottom: 20px;}
+    .shared_feature_box .margin_bottom_30 {margin-bottom: 0;}
+    .shared_feature_inner_box {padding: 35px 40px 35px 30px; border-radius: 0px;}
+    .purple_plan_box {border-radius: 22px 22px 0 0;}
+    .blue_plan_box {border-radius: 0 0 22px 22px;}
+    .shared_feature_box .mobile_view_top {border-top-left-radius: 6px; border-top-right-radius: 6px;}
+    .shared_feature_box .mobile_view_bottom {border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;}
+    .shared_feature_box .mobile_view {border-bottom: 1px solid #eeeeee;}
+    .script_icon_box {margin: 0 auto 5px; width: 100px; height: 100px;}
+    .btn_more_script {padding: 13px 25px;}
+    #accordion01 .card-header button[aria-expanded="true"]{font-size: 16px; line-height: 22px;}
+    #accordion01 .card-header button[aria-expanded="false"]{font-size: 16px; line-height: 22px;}
+    #accordion01 .card-header button[aria-expanded="true"]:before {top: 8px; width: 20px; height: 20px;}
+    #accordion01 .card-header button[aria-expanded="false"]:before {top: 8px; width: 20px; height: 20px;}
+    .question_content_body {padding: 0 0 0 60px; font-size: 14px; line-height: 20px;}
+    .section_heading {margin-bottom: 20px;}
+    .reseller_feature_heading {font-size: 20px; line-height: 32px;}
+    .default_navigation .default_navigation_box {width: 46%; right: 14px; z-index: 2;}
+    .outer_shared_hosting_plan:after {bottom: -92px;}
+    .technical_specification_list {padding: 0 90px;}
+    .reseller_plan_list li.active button:focus {outline: none;}
+    .reseller_plan_list {padding-bottom: 0px;}
+    .d_m_mobile_btn04 button {border-top-right-radius: 22px;}
+    .d_m_mobile_btn01 button {border-top-left-radius: 22px;}
+    #accordion2 .card-header button[aria-expanded="true"]:before {top: 14px}
+    #accordion2 .card-header button[aria-expanded="false"]:before {top: 14px}
+    .mobile_view02, .mobile_view03 {border-radius: 0;}
+    .mobile_view01 {border-bottom-right-radius: 0; border-bottom-left-radius: 0;}
+    .mobile_view04 {border-top-right-radius: 0; border-top-left-radius: 0;}
+    .reseller_feature_box .margin_bottom_30 {margin-bottom: 0;}
+    .reseller_feature_box h3 {font-size: 18px; line-height: 34px; margin-bottom: 0;}
+    .reseller_feature_box {padding: 30px 20px;}
+    .reseller_feature_box figure img {width: 36px;}
+    .reseller_feature_box p {font-size: 14px; line-height: 20px;}
+    .price_rangetxt div.icon span {font-size: 15px; line-height: 22px;}
+    .price_rangetxt {width: 100%; padding: 20px 30px;}
+    .inner_slider_feature_box figure img {display: none;}
+    .value_text {font-size: 14px; line-height: 20px;}
+    .slider_feature_box_price span {font-size: 16px; line-height: 22px;}
+    .inner_slider_feature_content_box {width: 100%;}
+    .price_txt, .price_txt #price_val {font-size: 24px; line-height: 30px;}
+    .buynow_button {font-size: 12px; line-height: 14px;}
+    .buynow_button {padding: 10px 15px;}
+    .vps_slider_order_box {padding: 10px 0;}
+    .private_server_tablet_img {display: none;}
+    .padding_top_50 {padding-top: 20px;}
+    .private_server_tablet_content {padding-top: 0px; padding-left: 0px;}
+    .private_server_tablet_content .section_heading {text-align: center!important; padding: 0 30px;}
+    .btn_get_started {font-size: 12px; line-height: 12px; padding: 10px 10px;}
+    .feature_box_mobile {padding-bottom: 25px;}
+    .vps_feature_img {margin: 0 auto 10px;}
+    .vps_feature_box h3 {font-size: 18px; line-height: 24px; margin-bottom: 5px}
+    .domain_offer_center_box::after {right: 0px; top: -270px; width: 136px;}
+    .domain_offer_last_box:before {right: 40px; bottom: -30px;}
+    .domain_offer_center_box::before {left: 0px; top: -250px;}
+    .domain_offer_box {top: 40px;}
+    .domain_offer_center_box {width: 390px; height: 390px; margin: 0px auto 0 70px; top: -10px;}
+    .domain_offer_center_box .inner_domain_offer_box {padding: 0 85px;}
+    .domain_offer_last_box {top: -50px;}
+    .search_domain_field {width: 77%; font-size: 14px; line-height: 20px; padding: 15px 10px;}
+    .search_domain_btn {line-height: 40px; padding: 5px; margin-left: 10px;}
+    .outer_search_filed::before {top: -65px; left: 0px;}
+    .outer_domain_names {padding: 20px 25px 0;}
+    .outer_search_filed::after {bottom: -120px; left: 160px;}
+    .domain_table tbody td {padding: 10px 0;}
+    .hosting_guarantee .margin_bottom_70 {margin-bottom: 30px;}
+    .dedicate_server_table tbody td {padding: 10px 0 10px 60px;}
+    .dedi_feature_img figure {display: none;}
+    .dedi_feature_box {text-align: center!important; padding: 0 30px 20px; margin-bottom: 0;}
+    .dedi_feature_box figure img {width: 42px;}
+    .dedi_feature_box01::before {top: -20px; left: 15px;}
+    .dedi_feature_box04::after {bottom: -64px; right: 0px; width: 80px;}
+    .dedi_mobile_view01 {padding-top: 10px;}
+    .dedi_mobile_view02 {padding-top: 0;}
+    .dedi_feature_box h3 {font-size: 18px; line-height: 24px;}
+    .outer_our_history_box {padding: 25px;}
+    .our_history_box h3 {font-size: 28px; line-height: 34px;}
+    .our_history_box p {line-height: 22px;}
+    .team_box figure {margin-bottom: 5px;}
+    .team_box h4 {font-size: 18px; line-height: 24px;}
+    .team_box p {font-size: 12px; line-height: 18px;}
+    .team_section .mobile_view {margin-bottom: 20px;}
+    .mailing_box01 {border-radius: 22px 22px 0 0;}
+    .mailing_box02 {margin-left: 0; margin-top: 0; border-radius: 0; padding: 20px 130px 25px 30px;}
+    .mailing_box03 {padding: 20px 130px 25px 30px; margin-top: 0; border-radius: 0 0 22px 22px;}
+    .mail_address_img {position: relative;}
+    .mail_address_img {width: 220px; top: 20px; height: 359px;}
+    .mailing_plan::before {width: 96px; top: 30px;}
+    .mailing_plan::after {bottom: 280px; right: 30px;}
+    .contact_form_fields {line-height: 20px;}
+}
+
+@media only screen and (max-width: 375px){
+    .banner_content h1 {padding: 0 20px;}
+    .banner_content h1:before {width: 62px; height: 93px; top: 3px; left: -21px;}
+    .banner_btn {margin-left: 20px;}
+    .build_your_website:before {height: 166px;}
+    .technical_specification_list {padding: 0 70px;}
+    .reseller_plan_table tbody td {padding: 15px 18px;}
+    .value_text {font-size: 11px;}
+    .domain_offer_center_box {width: 360px; height: 360px; margin: 0px auto 0 60px;}
+    .outer_domain_names {padding: 20px 12px 0;}
+    .outer_search_filed::before {top: -55px; left: -10px;}
+    .outer_search_filed::after {left: 135px;}
+    .footer03_contact_outer {padding: 10px 50px 10px 80px;}
+    .hosting_dd_menu {width: 172px;}
+    .default_dd_menu {width: 172px;}
+}
+

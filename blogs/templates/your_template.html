@@ -1,0 +1,70 @@
+{% load static %}
+{% include "base.html" %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Cloning Tool</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1229485860316774" crossorigin="anonymous"></script>
+    <style>
+        body {
+            text-align: center;
+            /*padding-top: 120px;*/
+        }
+        h1, h2, p {
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 500px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .download-link {
+            font-size: 24px; /* Increase the font size as needed */
+            text-decoration: none; /* Remove the underline from the link */
+            background-color: #007bff; /* Add a background color to make it stand out */
+            color: #fff; /* Set the text color to white */
+            padding: 10px 20px; /* Add padding to the link */
+            border-radius: 5px; /* Add rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <h1>Website Cloning Tool</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        <label for="url">Enter Website URL:</label>
+        <input type="text" name="url" id="url">
+        <button type="submit" class="download-link">Clone Website</button>
+    </form>
+
+    <h2>Options:</h2>
+    <p>
+        <a href="?download=website" class="download-link">Download Cloned Website</a>
+    </p>
+
+    {% if cloned_website %}
+    <h2>Downloaded Cloned Website</h2>
+    <div class="center">
+        <a href="data:text/html;charset=utf-8,{{ cloned_website }}" download="cloned_website.html" class="download-link">Download Cloned Website</a>
+    </div>
+    {% endif %}
+
+    {% if error_message %}
+    <div class="error">
+        {{ error_message }}
+    </div>
+    {% endif %}
+</body>
+</html>
+
+ {% include "footerone.html" %}

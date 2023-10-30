@@ -1,0 +1,49 @@
+{% load static %}
+{% include "base.html" %}
+<!-- Header -->
+<head>
+    <title>Thecodingbus: Create Apps Easily with MIT App Inventor</title>
+    <meta name="keywords" lang="en" content=" MIT App Inventor, MIT App">
+    <meta name="description" lang="en" content="Create mobile apps without coding using MIT App Inventor – your path to app development made simple">
+    </head>
+<header class="container mt-3">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 id="title">
+                <!--<a href="/">-->
+                <img src="/TheCodingBus/static/images/tcb-logo.png" width="125" height="125" alt="" title="">
+                <!--</a>-->
+                The Coding Bus
+            </h1>
+        </div>
+    </div>
+    <!-- Navigation Bar -->
+    <hr class="hrtop" />
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>WELCOME TO TCB WORLD!</h1>
+                <p>
+                    Hi! I'm an <a class="ext" href="http://appinventor.mit.edu/" target="_blank">App Inventor</a> enthusiast.
+                    This page is dedicated to <a class="ext" href="http://appinventor.mit.edu/" target="_blank">
+                    <img src="/TheCodingBus/static/images/ailogo2.png" width="44" height="39" alt="App Inventor" title="App Inventor"> App Inventor</a>.
+                   
+                    Here you can find tons of Empower Your Creativity with MIT App Inventor
+                    <a class="btn btn-primary" href="./tutorials.php" target="_top">Tutorials</a>, and
+                    <a class="btn btn-primary" href="{% url 'blogs:extension' %}" target="_top">Extensions</a>
+                    as well as an extensive list of <a class="info" href="{% url 'blogs:extension' %}" target="_top">Links</a> to more tips and tricks around App Inventor.
+                   
+                </p>
+                <p>Discover the Power of App Creation
+                    MIT App Inventor is your gateway to turning your innovative ideas into fully functional Android apps. Whether you're a student, educator, or a passionate developer, our platform provides you with the tools and resources you need to bring your app visions to life.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    {% include "footer.html" %}
+    {% include "footerone.html" %}
+</body>
+</body>
+</html>
